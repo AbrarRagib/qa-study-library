@@ -4,9 +4,7 @@
     "2_DSA_Master_Handbook.pdf",
     "3_Python_From_Scratch_and_DSA.pdf",
     "4_Rust_Complete_Guide.pdf",
-    "Abrar_Ragib_SQA_CV.pdf",
     "API-Testing-Viva-Prep-Guide.pdf",
-    "API-Testing-Viva-Prep-Guide_1.pdf",
     "CICD-Git-Viva-Prep-Guide.pdf",
     "Database-SQL-Viva-Prep-Guide.pdf",
     "istqb_ctfl_prep.pdf",
@@ -18,5 +16,5 @@
     "SQA-A-to-Z-Complete-Theory-Guide.pdf",
     "Ultimate-Security-Testing-Interview-Guide-Vol1.pdf"
   ],
-  "count": 17
+  "count": 15
 }
