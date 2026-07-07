@@ -194,12 +194,12 @@
     min-width:42px;text-align:center}
 
   /* scroll area holding rendered pages */
-  .scroll{flex:1;min-height:0;overflow-y:auto;overflow-x:auto;padding:22px 16px 40px;scrollbar-width:thin;
-    display:flex;flex-direction:column;align-items:center;gap:16px;scroll-behavior:smooth}
+  .scroll{flex:1;min-height:0;overflow:auto;-webkit-overflow-scrolling:touch;
+    padding:22px 16px 40px;scrollbar-width:thin;text-align:center;scroll-behavior:smooth}
   .scroll::-webkit-scrollbar{width:11px;height:11px}
   .scroll::-webkit-scrollbar-thumb{background:var(--line);border-radius:9px;border:3px solid var(--stage)}
   .pageHolder{position:relative;background:#fff;border-radius:4px;box-shadow:var(--shadow);
-    max-width:100%;display:grid;place-items:center;color:#889;overflow:hidden}
+    margin:0 auto 16px;display:grid;place-items:center;color:#889;overflow:hidden}
   .pageHolder .ph{font-family:"JetBrains Mono",monospace;font-size:11px;color:#8892a4}
   canvas.pageCanvas{display:block;border-radius:4px;max-width:100%}
   /* dark PDF: invert canvases when enabled */
@@ -210,7 +210,7 @@
   body.reading .brand span{display:none}
 
   /* states */
-  .center{flex:1;display:grid;place-items:center;text-align:center;padding:30px}
+  .center{min-height:100%;display:grid;place-items:center;text-align:center;padding:30px}
   .center .box{max-width:340px}
   .center .glyph{width:52px;height:52px;margin:0 auto 16px;border-radius:14px;
     background:var(--panel-2);border:1px solid var(--line);display:grid;place-items:center}
